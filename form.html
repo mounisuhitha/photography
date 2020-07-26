@@ -1,0 +1,70 @@
+<html>
+<head>
+<style> 
+body {
+  background-image: url("photo.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+   background-size:1200px 900px;
+}
+
+</style>
+</head>
+<body>
+ 
+ <form>
+ 	<fieldset>
+  <legend>Sign-up</legend><br><br><br>
+ 	<center>
+ <label for="fname">First name:</label>
+ <input type="text" id="fname" name="fname"><br><br><br>
+ 
+ <label for="lname">Last name:</label>
+ <input type="text" id="lname" name="lname"><br><br><br>
+ 
+ <label for="r"> Select the gender:</label>
+  <input id="r" type="radio" name="gender" >Male
+ <input type="radio" name="gender" >Female<br><br><br>
+ 
+ <label for="photo" >Upload Profile Pic:</label>
+ <input id = "photo" type="file"><br> <br><br>
+ 
+ <label for="date">DOB:</label> 
+ <input type="date" id="date"><br><br><br>
+
+  <label for="phone">Phone Number:</label> 
+ <input type="text" id="phone" name="phone" pattern="{ 0-9}"><br><br><br>
+ 
+ <label for="mail">Email:</label>
+ <input type="email" id="mail" name="email"><br><br><br>
+ <label for="browser">Choose your browser :</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+ <br><br><br>
+  
+ 
+ <label for="pass">Password:</label>
+ <input type="password" id="pass" name="pass" ><br><br><br>
+ 
+ <label for="pass">Retype Password:</label>
+ <input type="password" id="pass" name="pass" ><br><br><br>
+
+
+ <a href="index.html" ><input type="button" value="Submit"></a>
+ <input type="reset"><br> <br>
+</fieldset>
+</center>
+</p>
+</form>
+</option>
+</select>
+</form>
+</body>
+</html>
